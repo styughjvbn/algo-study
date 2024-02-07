@@ -19,6 +19,6 @@ public class Main {
 			sb.append(li.get(i)+"\n");
 		}
 		System.out.println(sb);
-		
+	
 	}
 }
