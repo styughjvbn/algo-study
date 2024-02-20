@@ -23,22 +23,22 @@ public class Main {
 			}
 			else if(command.equals("pop")) {
 				if(!dq.isEmpty()) {sb.append(dq.poll()+"\n");}
-				else {sb.append(-1+"\n");}
+				else {sb.append("-1\n");}
 			}
 			else if(command.equals("size")) {
 				sb.append(dq.size()+"\n");
 			}
 			else if(command.equals("empty")) {
-				if(!dq.isEmpty()) {sb.append(0+"\n");}
-				else {sb.append(1+"\n");}
+				if(!dq.isEmpty()) {sb.append("0\n");}
+				else {sb.append("1\n");}
 			}
 			else if(command.equals("front")) {
 				if(!dq.isEmpty()) {sb.append(dq.peek()+"\n");}
-				else {sb.append(-1+"\n");}
+				else {sb.append("-1\n");}
 			}
 			else if(command.equals("back")) {
 				if(!dq.isEmpty()) {sb.append(dq.peekLast()+"\n");}
-				else {sb.append(-1+"\n");}
+				else {sb.append("-1\n");}
 			}
 		}
 		System.out.println(sb);
